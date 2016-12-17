@@ -7,13 +7,22 @@ TODO: Add a description of the plugin.
 Add lita-parrot to your Lita instance's Gemfile:
 
 ``` ruby
-gem "lita-parrot"
+gem 'lita-parrot', git: 'https://github.com/gouf/lita-parrot'
 ```
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+Set your own API token
+
+```
+export SLACK_API_TOKEN=xoxb-yyyyyyyyyy-zzzzzzzzzzzzzzzzzzzzzzzz
+```
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+in Slack channel:
+
+```
+@lita parrot foo bar # => @my_name parrot foo bar
+@lita echo foobar # => @my_name echo foo bar
+```
