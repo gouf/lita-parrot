@@ -5,7 +5,7 @@ module Lita
       route(/parrot/, :parrot)
 
       def parrot(response)
-        response.replies response.user&.id
+        response.reply response.user&.id
         response.reply "@#{response.message.source.user&.name} #{response.message.body}"
       end
 

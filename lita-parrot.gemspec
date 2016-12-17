@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-parrot"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["gouf"]
   spec.email         = ["innocent.zero@gmail.com"]
   spec.description   = "Response same message"
