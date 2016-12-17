@@ -1,3 +1,5 @@
+require 'slack-ruby-client'
+
 module Lita
   module Handlers
     class Parrot < Handler
