@@ -3,7 +3,6 @@ require 'slack-ruby-client'
 module Lita
   module Handlers
     class Parrot < Handler
-      route(/echo/, :parrot)
       route(/parrot/, :parrot)
 
       def parrot(response)

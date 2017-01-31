@@ -11,7 +11,7 @@ describe Lita::Handlers::Parrot, lita_handler: true do
   let(:user) { ::Lita::User.create('1', name: 'foo')   }
 
   it 'response user name and recieved message' do
-    send_message('echo foo bar')
+    send_message('parrot foo bar')
     expect(replies.last).to match(/(bar)|(brabra)/)
   end
 end
